@@ -20,8 +20,8 @@ importers:
         specifier: ^1.0.15
         version: 1.0.15(@auth/core@0.37.4(nodemailer@6.9.16))(hono@4.6.13)(react@19.0.0)
       '@hono/node-server':
-        specifier: ^1.13.7
-        version: 1.13.7(hono@4.6.13)
+        specifier: ^1.13.8
+        version: 1.13.8(hono@4.6.13)
       '@hono/zod-openapi':
         specifier: ^0.18.3
         version: 0.18.3(hono@4.6.13)(zod@3.24.1)
@@ -1451,8 +1451,8 @@ packages:
       hono: '>=3.*'
       react: ^18 || ^19 || ^19.0.0-rc
 
-  '@hono/node-server@1.13.7':
-    resolution: {integrity: sha512-kTfUMsoloVKtRA2fLiGSd9qBddmru9KadNyhJCwgKBxTiNkaAJEwkVN9KV/rS4HtmmNRtUh6P+YpmjRMl0d9vQ==}
+  '@hono/node-server@1.13.8':
+    resolution: {integrity: sha512-fsn8ucecsAXUoVxrUil0m13kOEq4mkX4/4QozCqmY+HpGfKl74OYSn8JcMA8GnG0ClfdRI4/ZSeG7zhFaVg+wg==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: ^4
@@ -4930,7 +4930,7 @@ snapshots:
       hono: 4.6.13
       react: 19.0.0
 
-  '@hono/node-server@1.13.7(hono@4.6.13)':
+  '@hono/node-server@1.13.8(hono@4.6.13)':
     dependencies:
       hono: 4.6.13
 
